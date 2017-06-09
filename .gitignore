@@ -1,0 +1,129 @@
+##########################################
+### Fisheye .gitignore Template v2.3.1 ###
+##########################################
+
+# ignore everything by default
+
+/*
+
+# Ensure this file gets tracked!
+!/.gitignore
+
+###########
+# Magento #
+###########
+
+!/app
+/app/etc/local.xml
+!/downloader
+/downloader/.cache
+!/errors
+!/includes
+!/js
+!/lib
+!/pkginfo
+!/scripts
+!/shell
+!/skin
+
+!/.htaccess
+!/api.php
+!/cron.php
+!/cron.sh
+!/favicon.ico
+!/get.php
+!/index.php
+!/install.php
+!/LICENSE_AFL.txt
+!/LICENSE.html
+!/LICENSE.txt
+!/mage
+!/modman
+!/scheduler_cron.sh
+
+############
+# Markdown #
+############
+
+# Ensure all markdown files get tracked as used for documentation
+# Always use .md file extension please :)
+!*.md
+
+########
+# SASS #
+########
+
+# Ignore .sass-cache folder
+.sass-cache
+
+# Ignore compiled files from all themes in the Fisheye package
+# Turn off if SASS not used
+# /skin/frontend/fisheye/*/css/
+
+#########
+# Grunt #
+#########
+
+npm-debug.log
+node_modules
+
+################################
+# 3rd party magento extentions #
+################################
+
+/lib/ClickTale/Cache/
+/lib/tcpdf/cache/
+
+#############
+# Wordpress #
+#############
+
+# Modify the below based on the wordpress directory e.g. 'blog'
+# Even default themes are tracked as this helps when upgrading
+# wordpress and also to track any malicious file changes
+
+!/blog
+/blog/wp-config.php
+/blog/wp-content/uploads
+
+##############################################
+# Below taken from github's example template #
+##############################################
+
+############
+# Packages #
+############
+
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+###################################
+# Logs, databases and other files #
+###################################
+*.log
+*.sql
+*.sqlite
+.svn
+.thumbs
+
+######################
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+*.swp
