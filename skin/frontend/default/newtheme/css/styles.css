@@ -560,7 +560,7 @@ tr.summary-details-excluded { font-style:italic; }
 #nav li.active a { color:#d96708; }
 #nav a { float:left; padding:5px 12px 6px 8px; color:#a7c6dd; font-weight:bold; }
 #nav li.over a,
-#nav a:hover { color:#d96708; }
+#nav a:hover { color: red; }
 
 /* 1st Level */
 #nav ul li,
