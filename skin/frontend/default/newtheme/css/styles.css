@@ -542,7 +542,7 @@ tr.summary-details-excluded { font-style:italic; }
 .top-container .paypal-logo {text-align: left; display: inline-table;}
 
 /********** < Navigation */
-.nav-container { background:pink url(../images/bkg_nav0.jpg) 50% 0 repeat-y; }
+.nav-container { background:pink; }
 #nav { width:918px; margin:0 auto; padding:0 16px; font-size:13px; }
 
 /* All Levels */ /* Style consistent throughout all nav levels */
