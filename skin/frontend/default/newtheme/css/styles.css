@@ -580,7 +580,7 @@ tr.summary-details-excluded { font-style:italic; }
 #nav ul ul,
 #nav ul div { top:5px; }
 
-#nav ul li a { background:#ecf3f6; }
+#nav ul li a { background: blue; }
 #nav ul li a:hover { background:#d5e4eb; }
 #nav ul li a,
 #nav ul li a:hover { color:#2f2f2f !important; }
