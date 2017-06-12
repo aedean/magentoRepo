@@ -543,7 +543,7 @@ tr.summary-details-excluded { font-style:italic; }
 
 /********** < Navigation */
 .nav-container { background:pink; }
-#nav { width:918px; margin:0 auto; padding:0 16px; font-size:13px; }
+#nav { width:918px; margin:0 auto; padding:0 16px; font-size: 20px; }
 
 /* All Levels */ /* Style consistent throughout all nav levels */
 #nav li { position:relative; text-align:left; }
