@@ -1,8 +1,8 @@
 
 <config>    
     <modules>
-        <Alanstormdotcom_Configviewer>
+        <aliceTest_Configviewer>
             <version>0.1.0</version>
-        </Alanstormdotcom_Configviewer>
+        </aliceTest_Configviewer>
     </modules>
 </config>
