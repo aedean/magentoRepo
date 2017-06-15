@@ -1,5 +1,5 @@
 <?php
-class Alanstormdotcom_Configviewer_Model_Observer {
+class aliceTest_Configviewer_Model_Observer {
 
         const FLAG_SHOW_CONFIG = 'showConfig';
         const FLAG_SHOW_CONFIG_FORMAT = 'showConfigFormat';        
