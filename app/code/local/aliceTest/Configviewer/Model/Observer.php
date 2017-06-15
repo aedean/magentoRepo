@@ -29,4 +29,5 @@ class aliceTest_Configviewer_Model_Observer {
         private function outputConfig() {            
             die(Mage::app()->getConfig()->getNode()->asXML());        
         }
-    }
+    } 
+?>
